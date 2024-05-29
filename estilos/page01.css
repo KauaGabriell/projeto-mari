@@ -1,0 +1,76 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Salsa&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../images/girassol.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.container{
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    backdrop-filter: blur(5px);
+    box-shadow: 1px 3px 13px 2px rgba(0, 0, 0, 0.582);
+    border-radius: 10px;
+}
+
+.container-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.texto-page01{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    backdrop-filter: blur(10px);
+    height: 150px;
+    box-shadow: 1px 3px 15px 2px rgba(0, 0, 0, 0.349);
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #ffe6a76b;
+}
+
+.texto-page01 p{
+    color: #432818c4;
+    padding: 15px;
+    font-family: 'Salsa';
+    font-size: 18px;
+    text-align: justify;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.623);
+}
+
+.carta{
+    width: 50%;
+}
+
+.flor{
+    width: 75%;
+}
+
+.camera{
+    width: 60%;
+}
