@@ -53,11 +53,12 @@ body{
     justify-content: center;
     align-items: start;
     backdrop-filter: blur(10px);
-    height: 150px;
+    height: 160px;
     box-shadow: 1px 3px 15px 2px rgba(0, 0, 0, 0.349);
     border-radius: 10px;
     margin-top: 20px;
     background-color: #ffe6a76b;
+    text-align: justify;
 }
 
 .texto-page01 p{
