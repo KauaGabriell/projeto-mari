@@ -81,3 +81,27 @@ body{
 .camera{
     width: 60%;
 }
+
+.btnwrapper{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.btn{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.575);
+    font-family: 'Salsa';
+    font-weight: bolder;
+    font-size: large;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    margin: 30px;
+}
+
+.btn:hover{
+    color: chocolate;
+    cursor: pointer;
+}
