@@ -22,7 +22,7 @@ body{
     align-items: center;
     backdrop-filter: blur(5px);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.397);
-    height: 200px;
+    
 }
 
 .msg{
@@ -70,42 +70,43 @@ a{
 }
 
 .item1{
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.541);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.699);
     border-radius: 15px;
     background-image: url(../images/foto1.jpeg);
     background-position: center;
 }
 
 .item2{
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.671);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.699);
     border-radius: 15px;
     background-image: url(../images/foto2.jpeg);
     background-position: center;
 }
 
 .item3{
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.541);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.699);
     border-radius: 15px;
     background-image: url(../images/foto3.jpeg);
     background-position: center;
 }
 
 .item4{
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.541);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.699);
     border-radius: 15px;
     background-image: url(../images/foto4.jpeg);
     background-position: center;
 }
 
 .item5{
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.651);
+
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.699);
     border-radius: 15px;
     background-image: url(../images/foto5.jpeg);
     background-position: center;
 }
 
 .item6{
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.651);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.699);
     border-radius: 15px;
     background-image: url(../images/foto6.jpeg);
     background-position: center;
@@ -114,7 +115,7 @@ a{
 }
 
 .item7{
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.651);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.699);
     border-radius: 15px;
     background-image: url(../images/foto7.jpeg);
     background-position: center;
@@ -123,57 +124,78 @@ a{
 }
 
 .item8{
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.651);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.699);
     border-radius: 15px;
     background-image: url(../images/foto8.jpeg);
     background-position: center;
 }
 
 .item9{
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.651);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.699);
     border-radius: 15px;
     background-image: url(../images/foto9.jpeg);
     background-position: center;
 }
 
 .item10{
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.651);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.699);
     border-radius: 15px;
     background-image: url(../images/foto10.jpeg);
     background-position: top;
 }
 
 .item11{
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.651);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.699);
     border-radius: 15px;
     background-image: url(../images/foto11.jpeg);
     background-position: center;
 }
 
 .item12{
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.651);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.699);
     border-radius: 15px;
     background-image: url(../images/foto14.jpeg);
     background-position: center;
 }
 
 .item13{
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.651);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.699);
     border-radius: 15px;
     background-image: url(../images/foto13.jpeg);
     background-position: end;
 }
 
 .item14{
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.651);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.699);
     border-radius: 15px;
     background-image: url(../images/foto16.jpeg);
     background-position: center;
 }
 
 .item15{
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.651);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.699);
     border-radius: 15px;
     background-image: url(../images/foto15.jpeg);
     background-position: top;
+}
+
+@media screen and (max-width: 600px){
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9, .item10, .item11, .item12, .item13, .item14, .item15 {
+        display: flex;
+        width: 300px;
+        height: 300px;
+    }
+
+    .msg-wrapper{
+        
+    }
+
 }
